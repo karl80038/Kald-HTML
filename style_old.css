@@ -1,0 +1,84 @@
+
+header{
+	background-image: url('images/pilt.png');
+	background-repeat: no-repeat;
+	background-position: 100%;
+	
+}
+
+main
+{
+
+	background-color: darkgrey;
+	
+
+}
+
+header, footer{
+	color: white; /*teksti värv*/
+	background-color: red;
+	padding: 10px; /*tühi ala teksti ja äärise*/
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+	text-shadow: darkgray;
+	background-blend-mode: difference;
+}
+header h1{
+	font-family: arial; /*teksti tüüp*/
+	letter-spacing: 0.5cm;
+	font-size: 30px;
+}
+section {
+	padding: 5%;
+	margin: 50px; /*tühi ala lõigu ja lehe vahel */
+	border: solid 2px purple; /*stiilid dotted, dashed, outline*/
+	border-radius: 60px 120px 60px 120px;
+	width:60%;
+	background-color: #dbffdb; /*https://www.w3schools.com/colors/colors_mixer.asp?colorbottom=008000&colortop=FFFFFF*/
+	opacity: 90%;
+	font-family: 'Roboto', sans-serif;
+
+}
+nav ul li{
+	display: inline;
+	margin: 5px;
+
+
+}
+nav ul{
+	list-style-type: disc; /*!!!!*/
+}
+nav li {
+	color:black;
+	border: solid 1px purple;
+	border-radius: 30px;
+	background-color: white;
+	padding: 0.5%;
+	text-align: center; /*teksti joondus*/
+	font-family: "Roboto", sans-serif;
+}
+
+nav a:hover, li:hover 
+{
+	background-color: salmon;
+    
+}
+nav li a {
+	text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color:black;
+}
+nav li a:hover{
+	text-decoration: underline;
+    
+}
+section#pilt{
+	width: 200px;
+	position: absolute;
+	top: 150px;
+	right: -10px;
+	padding:5px;
+	
+}
