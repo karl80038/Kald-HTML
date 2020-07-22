@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ee">
+	<head>
+		<meta charset="utf-8">
+		<title>Valuuta kalkulaator v3</title>
+		<link rel = "stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+			<title>Valuuta kalkulaator</title>
+			<h1 id = "tiitel">Karl-Erik Kald: Valuuta Kalkulaator</h1>
+		<br>
+			<div id = "description">Sisestada teisendatav väärtus ja ühik, kuhu see teisendada ning seejärel klõpsata nupul Teisenda.<br> Kõikide väljade kustutamiseks üheaegselt
+			klõpsata nupul Tühjenda.</div>
+		<br>
+		<div id= "errorMsg"></div>
+		<br><br>
+		<div class = currconvert>
+		<fieldset>
+			Teisendatav väärtus: <input type = "number" id="inputnumber"> eurot (€)
+			<br><br>
+			Ühik, kuhu teisendada: <input type = "text" id="unit">
+			<br><br>
+			Väärtus teisendatud kujul: 
+			<div id = convertedvalue></div>
+			<br><br>
+			<button id = btnSubmit onClick="Calculate()">Teisenda!</button>
+			<button id = btnClear>Tühjenda</button>
+		</fieldset>	
+		</div>
+		<script src="calculator.js"></script>
+	</body>
+	<footer>
+		<br><br>
+		<div id = "copyright">© 2020 Karl-Erik Kald. Kõik õigused kaitstud.</div>
+	</footer>
+</html>

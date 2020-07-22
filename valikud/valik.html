@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="et">
+	<head>
+		<title>Valikud JavaScript keeles</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<!--kodeering-->
+		<link rel="stylesheet" type="text/css" href="valik.css">
+		<script src="valikskript.js"></script>
+	</head>
+	<body>
+	<h1>Valikud JavaScript keeles</h1>
+	<form>
+	<table>
+	<tr>
+		<td>
+			<h3>Raadionupu valik</h3>
+
+			<input type="radio" name="valik" id="punane" value="punane" onchange="radionupuValik()">
+				<label for="punane">Punane</label>
+			<br>
+				<input type="radio" name="valik" id="must" value="must" onchange="radionupuValik()">
+				<label for="must">Must</label>
+			<br>
+				<input type="radio" name="valik" id="sinine" value="sinine" onchange="radionupuValik()">
+				<label for="sinine">Sinine</label>
+			<br>
+				<input type="radio" name="valik" id="valge" value="valge" onchange="radionupuValik()">
+				<label for="valge">Valge</label>
+			
+			
+		</td>
+
+		<td>
+			<h3>Rippmenüü valik</h3>	
+			
+			<select id="valik2" onchange="rippmenyyValik()">
+				<option value="white.png">Tehke valik...</option>
+				<option value="red.png">Punane</option>
+				<option value="black.png">Must</option>
+				<option value="blue.png">Sinine</option>
+				<option value="white.png">Valge</option>
+			</select>
+		</td>
+		<td>
+			<h3>Checkbox valikud</h3>
+
+						
+						<input type="checkbox" name="valik3" id="punanecheck" onchange="checkboxValik()">
+						<label for="punanecheck">punane</label>
+						<br>
+						<input type="checkbox" name="valik3" id="sininecheck" onchange="checkboxValik()">
+						<label for="sininecheck">sinine</label>
+						<br>
+						<input type="checkbox" name="valik3" id="mustcheck" onchange="checkboxValik()">
+						<label for="mustcheck">must</label>
+						<br>
+						
+						<input type="checkbox" name="valik3" id="valgecheck" onchange="checkboxValik()">
+						<label for="valgecheck">valge</label>
+						
+		</td>
+		</tr>
+	<tr>
+		<td colspan="3">
+			<img src="white.png" alt="pilt" id="pilt">
+
+		</td>
+		<td></td>
+	</tr>
+
+
+			
+
+	</table>		
+	</form>
+	</body>
+</html>	

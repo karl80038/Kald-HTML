@@ -1,0 +1,43 @@
+body 
+{
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+#tiitel 
+{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin-left: 5%;
+	margin-right: 20%;
+}
+#description 
+{
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#copyright 
+{
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+		margin-left: 5%;
+	margin-right: 20%;
+	
+}
+fieldset 
+{
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 2px groove;	
+}
+footer 
+{
+	margin-top: 10%	
+}

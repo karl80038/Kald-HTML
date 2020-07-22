@@ -1,0 +1,395 @@
+/* © Karl-Erik Kald */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+div.container {
+
+    margin: 0 auto;
+    border: 0px solid lightblue;
+    background-color: whitesmoke;
+    position: relative;
+    padding-top: 10px;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 150%;
+    padding-bottom: 6.5em;
+    z-index: 1;
+    /* overflow: visible;
+    clear: both; */
+}
+#clock, #date {
+    padding-left: 2em;
+}
+#clock {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+#date {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+header, footer {
+    padding-top: 1em; 
+    padding-bottom: 2em;
+   
+    color: whitesmoke;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: visible;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: slateblue;
+    min-width: 100%;
+    box-shadow: 1px 3px 10px 1px #888888;
+    margin: 0px;
+    z-index: 1;
+    clear: both;
+    /* z-index: 1; */
+
+}
+footer {
+    bottom: 0;
+    position: absolute;
+    height: 2.5em;
+    width: 100%;
+    box-shadow: 1px 3px 10px 1px #888888;
+
+
+}
+
+
+header {
+    top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+header h1 {
+    padding: 0;
+    margin: 0;
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+header p {
+    padding-left: 10%;
+}
+footer h3 {
+    margin: 0;
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+footer a {
+    color: wheat;
+}
+
+section {
+
+    padding-bottom: 6.5em;
+    position: relative;
+    overflow: visible;
+    clear: both;
+    z-index: 1;
+
+}
+main {
+    margin: 0px;
+    background-color: whitesmoke;
+    /* min-height: 100vh; */
+
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 1; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    overflow: visible;
+    position: static;
+
+}
+body {
+    margin: 0px;
+    min-height: 100%; 
+    min-width: 100%;
+    position: absolute;
+    z-index: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: whitesmoke;
+    overflow: visible;
+}
+nav {
+    z-index: 2;
+    position: sticky;
+    width: 100%;
+    background-color: rgba(138,43,226,0.9);
+    top: 0px;
+    padding: 0;
+    clear: both;
+    /* margin: 5px; */
+}
+nav ul {
+    list-style-type: none;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10%;
+    box-shadow: 1px 2px 2px 1px #888888;
+    background-color: rgba(138,43,226,0.9);
+    overflow: visible;
+    z-index: 2;
+    
+
+}
+h1 {
+    font-weight: 300;
+}
+h2 {
+    font-weight: 300;
+}
+h3 {
+    font-weight: 300;
+}
+nav li {
+    float: left;
+
+
+}
+
+nav li a {
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    /* background-color: rgba(138,43,226,0.7); */
+    background-color: inherit;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav li a:hover {
+    background-color: plum;
+}
+
+form {
+    padding : 2em;
+    width: fit-content;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #888888;
+    box-shadow: 1px 2px 3px 1px #888888;
+    border-radius: 4px;
+
+}
+table {
+    background-color: darkblue;
+    border-spacing: 0;
+    margin-right: 2em;
+    padding-bottom: 0.9px;
+
+    border-top: 1px solid darkblue;
+    border-right: 1px solid darkblue;
+    border-bottom: 1px solid darkblue;
+
+}
+
+th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-left: 1em;
+    padding-right: 2em;
+    font-size: large;
+    color: beige;
+
+}
+
+td {
+    background-color: aliceblue;
+    border-left: 1px solid darkblue;
+    padding-left: 1em;
+    padding-right: 2em;
+    border-top: 1px solid darkblue;
+
+}
+input[type=submit]{
+    background-color: paleturquoise;
+    border: solid 1px paleturquoise;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    box-shadow: 1px 2px 3px 1px #888888;
+
+    padding: 13px;
+}
+input[type=submit]:hover{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+input[type=submit]:checked{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    box-shadow: 0px 0px 0px 0px #888888;
+
+}
+input[type=text] {
+    margin: 1em;
+    background-color: white;
+    border: solid 1px #888888;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    padding: 13px;
+
+}
+/* button {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    /* box-shadow: 1px 2px 3px 1px #888888; */
+
+    /* padding: 14px 16px;
+}
+button:hover{
+    border: solid 0px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+
+input[type=button] {
+    border: solid 0px paleturquoise;
+    color: black;
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    /* box-shadow: 1px 2px 3px 1px #888888; */
+
+    /* padding: 13px;
+}  */
+input[type=button]:hover {
+    border: solid 0px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+select {
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 13px;
+
+
+}
+.dropdown-header {
+    background-color: antiquewhite;
+    width: 100%;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    /* background-color: rgba(138,43,226,0.7); */
+    background-color: inherit;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropbtn a {
+
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: plum;}
+
+  .footertext {
+      padding-left: 10%;
+  }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .dropbtn {
+        background-color: rgb(138,43,226);        
+        padding: 14px 16px;
+        font-size: 16px;
+        color: whitesmoke;
+        text-decoration: none;
+        border: none;
+      }
+      .dropbtn a {
+        font-weight: 400;
+        font-size: larger;
+        color: whitesmoke;
+        text-decoration: none;
+      }
+      header {
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0);
+
+      }
+      nav{
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0);
+      }
+}

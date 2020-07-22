@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html lang="ee">
+	<head>
+		<meta charset="utf-8">
+		<title>Valuuta kalkulaator</title>
+		<link rel = "stylesheet" type="text/css" href="">
+		
+	</head>
+	<body>
+		<title>Valuuta kalkulaator</title>
+		<h2>1.variant</h2>
+			<div class="var1">
+				Sisesta väärtus ja vali valuuta:
+				<br><br>
+				<input type = "number" id="inputnumber"> eurot teisenda
+				<select name = "currency" id="currency" onChange = "changeEventHandler(event)">
+					<option value = ""></option>
+					<option value = "dollar">Dollar</option>
+					<option value = "sek">SEK</option>
+					<option value = "rouble">Rouble</option>
+					<option value = "pound">Pound</option>
+				</select>
+				<br><br>
+			<div id = "answer">
+			</div>
+			</div>
+			<!--variant 2-->
+			<br><br>
+			<hr>
+			<h2>2.variant</h2>
+			<div id="var2">
+				<input type = "number" id = "inputnumber2"> euro
+				<br><br>
+				<fieldset id = "group">
+					<input type = "radio" name = "group" id = "dollar" onChange = "radioEventHandler(event)">
+					<label for = "dollar">Dollar</label>
+					<input type = "radio" name = "group" id = "sek" onChange = "radioEventHandler(event)">
+					<label for = "sek">SEK</label>
+					<input type = "radio" name = "group" id = "rouble" onChange = "radioEventHandler(event)">
+					<label for = "rouble">Rouble</label>
+					<input type = "radio" name = "group" id = "pound" onChange = "radioEventHandler(event)">
+					<label for = "pound">Pound</label>
+				</fieldset>	
+				<br><br>
+				<div id = "answer2"></div>
+			</div>
+			<script src = "CurrencyCalc.js"></script>
+	</body>
+</html>
